@@ -16,6 +16,16 @@
     color:white;
 }
 
+.header-menu> button{
+    
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 25px;
+        background-color: skyblue;
+    
+}
+
 .header-menu> li:hover{
     cursor: pointer;
     color: orange;

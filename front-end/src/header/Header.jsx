@@ -13,14 +13,11 @@ const Header = () => {
         <img src={Logo} alt='' className='logo' />
         <ul className='header-menu' >
           
-          <li><Link to='/programs'><button>Programs</button></Link></li>
-          <li><Link to={'/why'}><button>Why us</button></Link></li>
-         
-          <li><Link to='/plans'><button>Plans</button></Link></li>
-
-  
           
-          <li><Link to='/home/testimonials'><button>Testimonials</button></Link></li>
+         <button> <li><Link to='/programs'>Programs</Link></li></button>
+         <button><li><Link to={'/why'}>Why Us</Link></li></button> 
+         <button><li><Link to='/plans'>Plans</Link></li></button>
+         <button><li><Link to='/home/testimonials'>Testimonials</Link></li></button>
           
         </ul>
 

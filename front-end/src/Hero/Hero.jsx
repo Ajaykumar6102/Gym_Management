@@ -17,7 +17,7 @@ const Hero = ({books}) => {
   return (
     <div className='Hero' style={{backgroundImage: 'url(${background_image})'}}>
 
-      <div className="blur hero-blur"></div>
+    
         <div className='left-h'>
 
             <Header />
@@ -40,7 +40,7 @@ const Hero = ({books}) => {
               <div> <span>Ideal body</span></div>
               <div>
                 <span>
-                  in here we will help you to shape and build your ideal and live up your life to fullest
+                  In here we will help you to shape and build your ideal and live up your life to fullest
                 </span>
               </div>
           </div>
@@ -58,11 +58,12 @@ const Hero = ({books}) => {
               <span>fitness programs</span>
             </div>
           </div>
+       
           <div className="hero-buttons">
            <Link to="/registeration"><buttons className="btn">admin</buttons></Link>
            <Link to="/login"><button className="btn">Login</button></Link>
            <Link to="/ajay"><button className="btn">Sign in</button></Link>
-            <buttons className="btn">learn more</buttons>
+            <button className="btn">learn more</button>
           </div>
       </div> 
       
