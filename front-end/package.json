@@ -2,6 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Ajaykumar6102.github.io/Gym_Management",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gt-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
